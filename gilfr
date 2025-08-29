@@ -1,1 +1,68 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Scary%20Spelling'))()
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoleadHQ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <div class="logo">AutoleadHQ</div>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Automate Your Leads & Grow Your Business Effortlessly</h1>
+      <p>AutoleadHQ instantly captures new leads from your website, sends follow-up emails or SMS, notifies you via Slack/email, and helps collect online reviews — all without lifting a finger.</p>
+      <a href="YOUR_STRIPE_CHECKOUT_LINK" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2>What You Get</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <h3>Instant Lead Follow-Up</h3>
+          <p>Automatically contact your leads via email or SMS the moment they submit a form.</p>
+        </div>
+        <div class="feature">
+          <h3>Notifications to You</h3>
+          <p>Get new leads delivered to Slack or email immediately so you never miss a client.</p>
+        </div>
+        <div class="feature">
+          <h3>Automated Review Requests</h3>
+          <p>Boost your online reputation with automated review emails sent to satisfied customers.</p>
+        </div>
+      </div>
+      <a href="YOUR_STRIPE_CHECKOUT_LINK" class="cta-button secondary">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>If you have questions, email us at <a href="mailto:max@autoleadhq.com">max@autoleadhq.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 AutoleadHQ | max@autoleadhq.com</p>
+    </div>
+  </footer>
+</body>
+</html>
