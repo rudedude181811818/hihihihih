@@ -7,6 +7,16 @@ body { font-family: 'Inter', sans-serif; margin:0; padding:0; color:#111; backgr
 .nav .logo { font-weight:700; font-size:1.6rem;}
 .nav .nav-links a { margin-left:25px; text-decoration:none; color:#111; font-weight:600; transition:color 0.3s;}
 .nav .nav-links a:hover { color:#0f766e;}
+.logo a {
+  color: inherit;          /* makes it use the same color as your logo text */
+  text-decoration: none;   /* removes underline */
+  font-weight: bold;       /* optional: keeps it strong like a logo */
+}
+.logo a:hover {
+  opacity: 0.8;   /* subtle dim effect */
+  cursor: pointer;
+}
+
 
 /* Hero */
 .hero { text-align:center; padding:140px 20px 100px 20px; background:linear-gradient(135deg, #0f766e, #6ee7b7); color:#fff;}
